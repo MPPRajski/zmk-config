@@ -3,7 +3,7 @@ parse_config:
     - "modules/zmk/helpers/include"
 
   zmk_preamble: |
-    #include <zmk-helpers/key-labels/34.h>
+    #include <zmk-helpers/key-labels/totem.h>
     #define CONFIG_WIRELESS
 
   raw_binding_map:
@@ -29,7 +29,7 @@ parse_config:
     "&swapper": NWin
     "&kp LS(TAB)": PWin
     "&dot_spc": Sentence
-    "&num_dance": { "t": "Smart"}
+    "&num_dance": { "t": "Smart" }
     "&magic_shift": { "t": Magic, "h": "Shift" }
     "&smart_mouse": Smart Mouse
 
@@ -37,9 +37,9 @@ parse_config:
     "&hm_combo_ldr": Leader
     "&hm_combo_ldrsh": Shift+Leader
     "&hm_combo_lpar": { "t": "< (" }
-    "&hm_combo_rpar": { "t": "> )"}
-    "&kp LBKT": { "t": "{ ["}
-    "&kp RBKT": { "t": "} ]"}
+    "&hm_combo_rpar": { "t": "> )" }
+    "&kp LBKT": { "t": "{ [" }
+    "&kp RBKT": { "t": "} ]" }
 
     "&mmv MOVE_UP": Mouse ↑
     "&mmv MOVE_DOWN": Mouse ↓
